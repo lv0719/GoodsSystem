@@ -17,7 +17,7 @@ const { SubMenu } = Menu;
         let userMenu = getUserMenu.getUser();
         let {menus} = userMenu.role;
         let username = userMenu.username;
-        if(username === 'liwei'){
+        if(username === 'LV1234'||username ==='LM666'){
             return true
         }else if(!item.children){
             return menus.find(item1 => {return item1 === item.key})

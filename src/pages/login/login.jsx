@@ -65,7 +65,7 @@ export default class Login extends Component {
         }
         onFill = ()=> { //默认填充表单
             this.formRef.current.setFieldsValue({
-                username: 'liwei',
+                username: 'LV1234',
                 password: 'liwei',
               });
               message.success('启用默认用户');
